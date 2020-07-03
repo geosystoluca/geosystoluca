@@ -1,0 +1,459 @@
+.paquete
+{
+	display: inline-block;
+	margin: 0px;
+	width: 33.333%;
+	height: 33.333vw;
+	margin-top: 93px;
+	position: relative;
+}
+
+#basico
+{
+	float: left;
+	background-image: url("basico2.png");
+	background-size: 100% 100%;
+}
+
+#plus
+{
+	float: left;
+	background-image: url("plus3.png");
+	background-size: 100% 100%;
+}
+
+#premium
+{
+	background-image: url("premium2.png");
+	background-size: 100% 100%;
+}
+
+#basico h1, #plus h1, #premium h1
+{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 2.5vw;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	margin-top: 5px;
+}
+
+#basico h2
+{
+	color: rgb(75,75,75);
+}
+
+#plus h2
+{
+	color: rgb(128,128,0);
+}
+
+#basico h2, #plus h2, #premium h2
+{
+	background-color: rgba(0,0,0,0);
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 2vw;
+	margin-top: 10px;
+}
+
+#basicoflecha, #plusflecha, #premiumflecha
+{
+	height: 4vw;
+	width: 4vw;
+	background-image: url("paqdown.png");
+	background-size: 100% 100%;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#plusflecha
+{
+	background-image: url("paqdown2.png");
+}
+
+#basicoflecha
+{
+	background-image: url("paqdown3.png");
+}
+
+.servcta
+{
+	background-color: white;
+	display: block;
+	position: absolute;
+	bottom: 3vw;
+	vertical-align: bottom;
+	width: 16.666vw;
+}
+
+#servbas
+{
+	margin-left: 8.333vw;
+}
+
+#servplu
+{
+	
+	margin-left: 8.333vw;
+}
+
+#servpre
+{
+	margin-left: 8.333vw;
+}
+
+.paqinfo
+{
+	background-color: rgba(0,0,0,0);
+	width: 75%;
+	border: 0px solid (150,150,150);
+	box-shadow: 0px 0px 50px rgb(100,100,100);
+	margin-left: 12.5%;
+	display: none;
+	margin-top: 30px;
+}
+
+.paqinfo *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+.paqinfo h1
+{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.paqinfo p
+{
+	padding-bottom: 15px;
+	text-align: center;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.slot
+{
+	position: relative;
+	display: table;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 10px;
+}
+
+.slot2
+{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100px;
+															background-color:#e6e6e6;
+	border: 1px solid rgb(150,150,150);
+}
+
+.slot2 img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.slot2 h2
+{
+	display: inline-block;
+	margin: 0px 0px 0px 0px;
+	vertical-align: middle;
+	font-size: 27px;
+}
+
+#basinfo h2
+{
+	color: #3b3b3b;
+}
+
+#pluinfo h2
+{
+	color: #808000;
+}
+
+.icon
+{
+	height: 60px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.more
+{
+	height: 40px;
+	cursor: pointer;
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.expp
+{
+	display: none;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+#bascta h3, #plucta h3, #precta h3
+{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 50px;
+}
+
+#bascta a
+{
+	background-color: #4b4b4b;
+	color: white;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: auto;
+	padding: 5px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	width: 150px;
+	text-decoration: none;
+	box-shadow: 0px 0px 20px rgb(50,50,50);
+}
+
+#plucta a
+{
+	background-color: #808000;
+	color: white;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: auto;
+	padding: 5px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	width: 150px;
+	text-decoration: none;
+	box-shadow: 0px 0px 20px rgb(50,50,50);
+}
+
+#precta a
+{
+	background-color: black;
+	color: white;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: auto;
+	padding: 5px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	width: 150px;
+	text-decoration: none;
+	box-shadow: 0px 0px 20px rgb(50,50,50);
+}
+
+#bascta a:hover
+{
+	background-color: #7b7b7b;
+}
+
+#plucta a:hover
+{
+	background-color: #b0b000;
+}
+
+#precta a:hover
+{
+	background-color: #303030;
+}
+
+footer
+{
+	background-color:  #333333 ;
+	margin-top: 50px;
+}
+
+																		@media screen and (max-width: 948px)
+{
+	.paquete
+	{
+		width: 90%;
+		margin-left: 5%;
+		height: 90vw;
+		margin-bottom: 20px;
+		margin-top: 0px;
+	}
+	
+	#basico h1, #plus h1, #premium h1
+	{
+		font-size: 8.5vw;
+	}
+
+	.servcta
+	{
+		width: 75%;
+		display: block;
+		float: none;
+		margin-bottom: 3vw;
+	}
+
+	#servbas
+	{
+		margin-left: 12.5%;
+		float: none;
+	}
+
+	#servplu
+	{
+		margin-left: 12.5%;
+		float: none;
+	}
+
+	#servpre
+	{
+		margin-left: 12.5%;
+		float: none;
+	}
+
+	#basico
+	{
+		margin-top: 95px;
+	}
+	#plus, #premium
+	{
+		float: none;
+		margin-bottom: 0px;
+	}
+
+	#basico
+	{
+		margin-bottom: 10px;
+	}
+
+	#plus
+	{
+		margin-bottom: 10px;
+	}
+
+	#premium
+	{
+		margin-bottom: 10px;
+	}
+
+	#basico h2, #plus h2, #premium h2
+	{
+		font-size: 8vw;
+	}
+
+	#basicoflecha, #plusflecha, #premiumflecha
+	{
+		display: none;
+	}
+
+	#basicoflecha2, #plusflecha2, #premiumflecha2
+	{
+		height: 10vw;
+		width: 10vw;
+		background-size: 100% 100%;
+		cursor: pointer;
+		background-color: rgba(0,0,0,0);
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		margin-top: -10px;
+	}
+
+	#basicoflecha2
+	{
+		background-image: url("paqdown3.png");
+	}
+
+	#plusflecha2
+	{
+		background-image: url("paqdown2.png");
+	}
+
+	#premiumflecha2
+	{
+		background-image: url("paqdown.png");
+	}
+
+	#basinfo2, #pluinfo2, #preinfo2
+	{
+		display: none;
+		position: relative;
+		width: 95%;
+		margin-left: 2.5%;
+		top: 0px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+
+	#basinfo2 .slot, #pluinfo2 .slot, #preinfo2 .slot
+	{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+
+	#basinfo2 .icon, #pluinfo2 .icon, #preinfo2 .icon
+	{
+		height: 10vw;
+		margin-top: 0px;
+		margin-left: 2vw;
+		margin-right: 2vw;
+	}
+
+	#basinfo2 h2, #pluinfo2 h2, #preinfo2 h2
+	{
+		font-size: 5.5vw;
+		margin-top: 0px;
+	}
+
+	#basinfo2 p, #pluinfo2 p, #preinfo2 p
+	{
+		font-size: 4.5vw;
+	}
+
+	.more
+	{
+		height: 7vw;
+		vertical-align: none;
+		float: right;
+		position: absolute;
+		right: 0px;
+		margin-top: 2vw;
+		margin-right: 2vw;
+	}
+
+	.slot2
+	{
+		height: 20vw;
+	}
+
+	footer
+	{
+		margin-top: 20px;
+	}
+}

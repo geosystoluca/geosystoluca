@@ -1,0 +1,89 @@
+#interest{
+	background-color: rgba(0,0,0,0); 
+}
+footer{
+	background-color: #333333;	
+}
+
+												@media screen and (max-width: 948px)
+{	
+	
+
+	#pagina1 ul, #marketing2 ul, #ventas1 ul
+	{
+		width: 80%;
+		margin-left: 10%;
+		padding-left: 0px;
+		list-style-position: inside;
+	}
+
+	#pagina2 , #marketing1, #ventas2
+	{
+		width: 80%;
+		margin: 0px;
+		margin-left: 10%;
+		float: none;
+		height: 40vw;
+		margin-top: 50px;
+	}
+
+	#pagina12 *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+	#pagina12
+{
+	background-image: url("Land2_1.png");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#pagina1, #marketing2, #ventas1
+	{
+		width: 100%;
+		margin: 0px;
+		float: none;
+		margin-top: 3vw;
+	}
+
+
+#marketing2 *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+#marketing22
+{
+	background-image: url("Land2_.png");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#ventas1 *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+#ventas1
+{
+	display: inline-table;
+	position: relative;
+}
+
+#attention
+{
+	margin-top: 80px;
+	background-image: url("LandBan3.png");
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
+}

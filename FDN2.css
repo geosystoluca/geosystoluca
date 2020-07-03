@@ -1,0 +1,228 @@
+#nosotroscont
+{
+	margin-top: 100px;
+}
+
+
+#quienessomos, #misionn, #visionn
+{
+	width: 33.33333%;
+	height: 33.33333vw;
+	display: inline-table;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	bottom: 0px;
+}
+
+#quienessomos
+{
+	background-image: url("QS.png");
+	background-size: 100% 100%;
+	float: left;
+}
+
+#misionn
+{
+	background-image: url("Mision.png");
+	background-size: 100% 100%;
+	float: left;
+}
+
+#visionn
+{
+	background-image: url("Vision.png");
+	background-size: 100% 100%;
+}
+
+.nosotrostc
+{
+	display: table-cell;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,0);
+}
+
+.nosotrosmini
+{
+	width: 70%;
+	height: 30%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+}
+
+.nosotrosminimini
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.nosotrosminimini h1
+{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 2.5vw;
+}
+
+.nosotrosminimini img
+{
+	width: 3vw;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+#qsmas, #misionmas, #visionmas
+{
+	width: 3vw;
+	height: 3vw;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	cursor: pointer;
+	background-image: url("mas.png");
+	background-size: 100% 100%;
+}
+
+#qsinfo,#misioninfo,#visioninfo
+{
+	margin-top: 0px;
+	top: 0px;
+	display: none;
+	position: relative;
+}
+
+#qsinfo, #misioninfo, #visioninfo
+{
+	background-size: 100% 100%;
+	padding-top: 0px;
+	width: 50%;
+	margin-left: 25%;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(230,230,230);
+	box-shadow: 0px 0px 20px rgb(150,150,150);
+}
+
+#qsinfo h1, #misioninfo h1, #visioninfo h1
+{
+	text-align: center;
+}
+
+#qsinfo p, #misioninfo p, #visioninfo p
+{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#qsinfo *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+#misioninfo
+{
+}
+
+#misioninfo *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+#visioninfo
+{
+
+}
+
+#visioninfo *
+{
+	background-color: rgba(0,0,0,0);
+}
+
+#qsinfo h1
+{
+	color: rgb(155,155,0);
+}
+
+#misioninfo h1
+{
+	color: rgb(181,0,0);
+}
+
+#visioninfo h1
+{
+	color: rgb(0,62,180);
+}
+
+footer
+{
+	background-color:  #333333 ;
+	margin-top: 50px;
+	z-index: 3;
+}
+
+#qsinfom, #misioninfom, #visioninfom
+{
+	display: none;
+}
+
+																	@media screen and (max-width: 948px)
+{
+	#quienessomos
+	{
+		width: 90%;
+		height: 90vw;
+		margin-left: 5%;
+	}
+
+	#misionn
+	{
+		width: 45%;
+		height: 45vw;
+		margin-left: 5%;
+	}
+
+	#visionn
+	{
+		width: 45%;
+		height: 45vw;
+	}
+
+	#quienessomos h1, #misionn h1, #visionn h1
+	{
+		font-size: 6vw;
+		margin-bottom: 0px;
+	}
+
+	#quienessomos h1
+	{
+		font-size: 8vw;
+	}
+
+	#qsmas, #misionmas, #visionmas
+	{
+		width: 6vw;
+		height: 6vw;
+		margin-top: 0px;
+	}
+
+	#qsinfo, #misioninfo, #visioninfo
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	footer
+	{
+		margin-top: 50px;
+	}
+}
